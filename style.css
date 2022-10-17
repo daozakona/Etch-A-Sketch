@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+}
+.box {
+    width: 600px;
+    height: 600px;
+    background-color: rebeccapurple;
+    margin: 0 auto;
+}
+#box {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1,1fr);
+}
+.color {
+    background-color: aqua;
+}
