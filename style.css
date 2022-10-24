@@ -1,11 +1,12 @@
 body {
     text-align: center;
+    background-color: darkcyan;
 }
 .box {
     width: 600px;
     height: 600px;
-    background-color: rebeccapurple;
     margin: 0 auto;
+    background-color: #fff;
 }
 #box {
     display: grid;
@@ -13,5 +14,16 @@ body {
     grid-template-rows: repeat(1,1fr);
 }
 .color {
-    background-color: aqua;
+    background-color: red;
+}
+
+input {
+    margin: 50px 0 50px;
+    outline: none;
+    cursor: pointer;
+}
+
+div {
+    cursor: pointer;
+    border: 1px solid black;
 }
